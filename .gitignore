@@ -1,0 +1,7 @@
+# macOS
+.DS_Store
+
+# Large original photos — the site uses the optimized beyond-*.jpg versions
+assets/img/Trail.jpg
+assets/img/backyard.jpg
+assets/img/bird.jpeg
