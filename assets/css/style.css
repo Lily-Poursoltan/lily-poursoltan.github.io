@@ -238,6 +238,44 @@ a.plain, a.plain:hover { border-bottom: none; }
 }
 
 /* ==========================================================================
+   UPCOMING TALKS
+   ========================================================================== */
+.upcoming-wrap { margin-top: 14px; }
+.upcoming {
+  background: var(--bg-alt);
+  border: 1px solid var(--line);
+  border-left: 4px solid var(--accent);
+  border-radius: 10px;
+  padding: 22px 26px;
+}
+.upcoming-eyebrow {
+  display: inline-block;
+  font-family: var(--sans);
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 14px;
+}
+.upcoming-list { list-style: none; margin: 0; padding: 0; }
+.upcoming-item { padding: 14px 0; border-top: 1px solid var(--line); }
+.upcoming-item:first-of-type { padding-top: 0; border-top: none; }
+.upcoming-item:last-child { padding-bottom: 0; }
+.upcoming-title {
+  font-family: var(--serif);
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 1.35;
+  color: var(--text);
+  margin: 0 0 6px;
+}
+.upcoming-meta { margin: 0; font-size: 14.5px; line-height: 1.55; color: var(--text-soft); }
+.upcoming-meta span { display: block; }
+.upcoming-meta .venue { font-style: italic; font-weight: 600; color: var(--accent); }
+.upcoming-meta .when { font-weight: 500; color: var(--text); margin-top: 2px; }
+
+/* ==========================================================================
    RESEARCH FOCUS BAND
    ========================================================================== */
 .focus-statement { font-size: 18px; line-height: 1.65; margin-bottom: 30px; max-width: var(--reading); }
